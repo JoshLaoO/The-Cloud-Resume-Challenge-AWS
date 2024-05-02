@@ -1,0 +1,11 @@
+html{
+  display: flex;
+  justify-content: center;
+}
+body{
+  width: 1080px;
+}
+#links{
+  position:relative;
+  left: 25%;
+}
