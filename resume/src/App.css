@@ -24,3 +24,6 @@ a:link, a:visited, a:hover, a:active{
 #job-title{
   color:white;
 }
+#tech{
+  font-size: 12px;
+}
