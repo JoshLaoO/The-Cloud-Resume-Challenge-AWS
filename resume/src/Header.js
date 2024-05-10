@@ -8,15 +8,15 @@ function Header() {
         "fa-brands fa-gitlab": "https://github.com/JoshLaoO"
     }
     return (
-    <div className="container">
+    <div id='header' className="container">
       <div className="row d-flex flex-row text-center">
-        <h3>Joshua Gar Lao</h3>
-        <h6>Full Stack Software Engineer</h6>
+        <h3 id='name'>Joshua Gar Lao</h3>
+        <h6 id='job-title'>Full Stack Software Engineer</h6>
       </div>
-      <div id="links" className='row d-flex w-50 text-center justify-content-center'>
+      <div id="links" className='row d-flex text-center justify-content-center'>
         { Object.keys(info).map((icon) => {
             return(
-                <div className='col'><a className="text-decoration-none" href={info[icon]}><i className={icon}/></a></div>
+                <div className='col links'><a className="text-decoration-none" href={info[icon]}><i className={icon}/>{info[icon]}</a></div>
             )
         })}
         {/* <div>Phone - {info.phone}</div>

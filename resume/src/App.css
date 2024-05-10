@@ -1,11 +1,26 @@
 html{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
-body{
-  width: 1080px;
+.links{
+  text-decoration: none;
+  font-size: 10px;
+  color: white;
+}
+a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+  font-size: 10px;
+  color: white;
 }
 #links{
-  position:relative;
-  left: 25%;
+  background-color:rgb(41, 190, 239);
+}
+#header{
+  background-color: rgb(59, 59, 59);
+}
+#name{
+  color: rgb(41, 190, 239)
+}
+#job-title{
+  color:white;
 }
