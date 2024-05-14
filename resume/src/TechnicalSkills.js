@@ -30,7 +30,7 @@ function TechnicalSkills(){
     ]
     return(
         <div id='tech' className="p-5">
-            <h6 id='name'>TECHNICAL SKILLS</h6>
+            <h6 className='name'>TECHNICAL SKILLS</h6>
             <div className="d-flex">
                 <div>
                     <b>Programming Languages: </b>

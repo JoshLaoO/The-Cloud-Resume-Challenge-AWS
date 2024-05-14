@@ -18,12 +18,19 @@ a:link, a:visited, a:hover, a:active{
 #header{
   background-color: rgb(59, 59, 59);
 }
-#name{
+.name{
   color: rgb(41, 190, 239)
 }
 #job-title{
   color:white;
 }
 #tech{
+  font-size: 12px;
+}
+.caption{
+  font-weight:lighter;
+  font-size: 11px;
+}
+li{
   font-size: 12px;
 }

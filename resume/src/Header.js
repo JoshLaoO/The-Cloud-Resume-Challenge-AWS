@@ -10,7 +10,7 @@ function Header() {
     return (
     <div id='header' className="container">
       <div className="row d-flex flex-row text-center">
-        <h3 id='name'>Joshua Gar Lao</h3>
+        <h3 className='name'>Joshua Gar Lao</h3>
         <h6 id='job-title'>Full Stack Software Engineer</h6>
       </div>
       <div id="links" className='row d-flex text-center justify-content-center'>
