@@ -13,12 +13,16 @@ function RelevantProjects(){
         "Applied a filtered search listing of car service records with React & JavaScript for functionallity, and HTML & CSS for the looks for easier sales team access to inventory records",
         "Created the sales microservice with the key features of adding and managing customers, salespeople, sales, and sales history which improved organization and productivity"
     ]
+    const wb = [
+        "Demonstrated effective communication which was needed once it got busier, serving at least 40 customers in a 5 hour shift",
+        "Collaborated with a team of 5-8 employees by doing extra tasks for eachother to be more prepared and efficient"
+    ]
 
     return(
         <div>
             <h6 className='name'>RELEVANT PROJECTS</h6>
             <div>
-                <h6 className='name ps-5 pt-5'>
+                <h6 className='name ps-5 pt-4'>
                     TheSweetSpot | Full Stack Engineer |https://gitlab.com/crunchybellpeppers/module3-project-gamma | Docker, Python, FastAPI, PostgreSQL, JavaScript, React
                 </h6>
                 <p className="ps-5 caption">
@@ -33,7 +37,7 @@ function RelevantProjects(){
                 </ul>
             </div>
             <div>
-                <h6 className='name ps-5 pt-5'>
+                <h6 className='name ps-5 pt-4'>
                 CarCar| Full Stack Engineer | https://gitlab.com/JoshLao/project-beta | Docker, Python, Django, JavaScript, React
                 </h6>
                 <p className="ps-5 caption">
@@ -48,7 +52,7 @@ function RelevantProjects(){
                 </ul>
             </div>
             <div>
-                <h6 className='name ps-5 pt-5'>
+                <h6 className='name ps-5 pt-4'>
                     The Cloud Resume Challenge | Full Stack Engineer |https://github.com/JoshLaoO/The-Cloud-Resume-Challenge-AWS | Docker, Python, PostgreSQL, JavaScript, React, AWS
                 </h6>
                 <p className="ps-5 caption">
@@ -61,6 +65,31 @@ function RelevantProjects(){
                         )
                     })}
                 </ul>
+            </div>
+            <h6 className='name'>WORK EXPERIENCE</h6>
+
+            <div>
+                <h6 className="name ps-5 pt-4">
+                    Whataburger | Team Member
+                </h6>
+                <ul>
+                    {wb.map(b => {
+                        return(
+                            <li>{b}</li>
+                        )
+                    })}
+                </ul>
+            </div>
+            <h6 className='name'>RELEVANT EDUCATION</h6>
+
+            <div>
+                <h6 className="name ps-5 pt-4">
+                    Hack Reactor | Advanced Software Engineering Immersive Program
+                </h6>
+                <p style={{fontSize:"12px"}}>
+                    More than 700 hours of Python and Javascript coding training in an agile environment. Project-based learning including solo coding, pair programming,
+                    and team collaboration.
+                </p>
             </div>
         </div>
     )
