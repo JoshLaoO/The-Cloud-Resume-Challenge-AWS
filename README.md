@@ -13,3 +13,9 @@ Also went ahead and threw in the Technical skills section of the resume, looking
 5:00pm - I realized that I have made a mistake... I tried uploading the entire folder into S3 but it looks like the upload time was 2 days so I stopped.
 
 5:15pm - Brain fart detected... :D Needed to create a production build. And now the build is uploaded.
+
+## 05/15/2024
+
+4:15pm - Resuming my work from yesterday, deployed the static page, now I am going to use CloudFront to get https protection.
+
+#
