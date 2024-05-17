@@ -31,7 +31,7 @@ function RelevantProjects(){
                 <ul>
                     {sweetBullets.map(b=> {
                         return (
-                            <li>{b}</li>
+                            <li key={b}>{b}</li>
                         )
                     })}
                 </ul>
@@ -46,7 +46,7 @@ function RelevantProjects(){
                 <ul>
                     {carBullets.map(b=> {
                         return (
-                            <li>{b}</li>
+                            <li key={b}>{b}</li>
                         )
                     })}
                 </ul>
@@ -61,7 +61,7 @@ function RelevantProjects(){
                 <ul>
                     {awsBullets.map(b=> {
                         return (
-                            <li>{b}</li>
+                            <li key={b}>{b}</li>
                         )
                     })}
                 </ul>
@@ -75,7 +75,7 @@ function RelevantProjects(){
                 <ul>
                     {wb.map(b => {
                         return(
-                            <li>{b}</li>
+                            <li key={b}>{b}</li>
                         )
                     })}
                 </ul>

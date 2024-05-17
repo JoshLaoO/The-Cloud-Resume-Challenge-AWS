@@ -16,7 +16,7 @@ function Header() {
       <div id="links" className='row d-flex text-center justify-content-center'>
         { Object.keys(info).map((icon) => {
             return(
-                <div className='col links'><a className="text-decoration-none" href={info[icon]}><i className={icon}/>{info[icon]}</a></div>
+                <div key={icon} className='col links'><a className="text-decoration-none" href={info[icon]}><i className={icon}/>{info[icon]}</a></div>
             )
         })}
         {/* <div>Phone - {info.phone}</div>

@@ -1,6 +1,10 @@
 html{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  background-color: rgb(49, 49, 49);
+}
+body{
+  background-color: rgb(49, 49, 49);
 }
 .links{
   text-decoration: none;
@@ -33,4 +37,9 @@ a:link, a:visited, a:hover, a:active{
 }
 li{
   font-size: 12px;
+}
+#resume{
+  position: relative;
+  left:150px;
+  background-color:rgb(255, 249, 227);
 }

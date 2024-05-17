@@ -18,4 +18,6 @@ Also went ahead and threw in the Technical skills section of the resume, looking
 
 4:15pm - Resuming my work from yesterday, deployed the static page, now I am going to use CloudFront to get https protection.
 
-#
+## 05/16/2024
+
+7:10pm - Made a few quick color changes to make it easier on the eye like making the background eggshell and darkening the empty space. Also cleaned up "missing key" errors.

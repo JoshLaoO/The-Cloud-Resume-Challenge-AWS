@@ -4,7 +4,7 @@ import TechnicalSkills from './TechnicalSkills';
 import RelevantProjects from './RelevantProjects';
 function App() {
   return (
-    <div className="">
+    <div id='resume' className="w-75">
       <Header />
       <TechnicalSkills/>
       <RelevantProjects/>

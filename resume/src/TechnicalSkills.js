@@ -37,7 +37,7 @@ function TechnicalSkills(){
                 </div>
             {PLs.map(lang => {
                 return(
-                    <div className='ms-3'> {lang}</div>
+                    <div key={lang} className='ms-3'> {lang}</div>
                 )
             })}
             </div>
@@ -47,7 +47,7 @@ function TechnicalSkills(){
                 </div>
             {frontEnd.map(lang => {
                 return(
-                    <div className='ms-3'> {lang} </div>
+                    <div key={lang} className='ms-3'> {lang} </div>
                 )
             })}
             </div>
@@ -57,7 +57,7 @@ function TechnicalSkills(){
                 </div>
             {systemDesign.map(lang => {
                 return(
-                    <div className='ms-3'> {lang} </div>
+                    <div key={lang} className='ms-3'> {lang} </div>
                 )
             })}
             </div>
@@ -67,7 +67,7 @@ function TechnicalSkills(){
                 </div>
             {backEnd.map(lang => {
                 return(
-                    <div className='ms-3'> {lang} </div>
+                    <div key={lang} className='ms-3'> {lang} </div>
                 )
             })}
             </div>
