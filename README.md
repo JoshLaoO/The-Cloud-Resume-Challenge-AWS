@@ -21,3 +21,7 @@ Also went ahead and threw in the Technical skills section of the resume, looking
 ## 05/16/2024
 
 7:10pm - Made a few quick color changes to make it easier on the eye like making the background eggshell and darkening the empty space. Also cleaned up "missing key" errors.
+
+## 05/30/2024
+4:20pm - Few mistakes that I am realizing, my naming of my s3 bucket was wrong, so I had to make a new bucket, fill it with the same content, and create the record for my hosted zone. It is now accessable by going to [text](http://s3.joshlaocloudresume.com/)
+
