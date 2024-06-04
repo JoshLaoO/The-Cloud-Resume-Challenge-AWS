@@ -49,3 +49,5 @@ In fact, I will do that now...
 4:30pm - I am going to do the DevOps mod for this which is basically Continuous Deployment(CD)
 I've done step 1 already from the beginning which was create a github repo for this project.
 I need to do step 2 which is to convert my S3, Route 53, and CloudFront resources to infrastructure-as-code (IaC).
+
+Fixed up some variables and now I am ready to try again.
