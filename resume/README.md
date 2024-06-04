@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# The-Cloud-Resume-Challenge-AWS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 05/10/2024
+I've been at work trying to recreate my resume in HTML form, and I can confidently say that my Header is complete.
 
-## Available Scripts
+Also went ahead and threw in the Technical skills section of the resume, looking good so far!
 
-In the project directory, you can run:
+## 05/14/2024
+4:20pm - I am back at it and I worked on the Relevant Projects portion of my front-end, soon the front end will be complete.
 
-### `npm start`
+4:40pm - I also realized I can finish everything else on the same react component... Probably not the best practice shown, but it got the job done in a shorter amount of time.
+4:45pm - I am now going to deploy as a static website on Amazon S3.
+5:00pm - I realized that I have made a mistake... I tried uploading the entire folder into S3 but it looks like the upload time was 2 days so I stopped.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5:15pm - Brain fart detected... :D Needed to create a production build. And now the build is uploaded.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 05/15/2024
 
-### `npm test`
+4:15pm - Resuming my work from yesterday, deployed the static page, now I am going to use CloudFront to get https protection.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 05/16/2024
 
-### `npm run build`
+7:10pm - Made a few quick color changes to make it easier on the eye like making the background eggshell and darkening the empty space. Also cleaned up "missing key" errors.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 05/30/2024
+4:20pm - Few mistakes that I am realizing, my naming of my s3 bucket was wrong, so I had to make a new bucket, fill it with the same content, and create the record for my hosted zone. It is now accessable by going to [text](https://s3.joshlaocloudresume.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4:35pm - I've now made my website secure with HTTPS with CloudFront.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# CHUNK 1 DONE:
+## Here are some reflection questions that I am going to answer
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+What aspect of Chunk 1's work did you find the most difficult?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+One problem I ran into was knowing what steps I had to do first to get HTTPS on my s3 bucket.
+I overcame this by:
+Watching youtube videos on CloudFront, and Route 53.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Another problem was getting my domain. The way that Route 53 had me register domains did not work for me.
+I overcame this by:
+Using GoDaddy to register a domain and configure the DNS later on.
+Watching videos on how to use that domain for my S3 Bucket.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+What's something you'd have done differently, or added, if you'd had more time?
+I think the way I put together my S3 bucket was okay, but I would definately want to impliment some CI/CD into it.
+In fact, I will do that now...
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4:30pm - I am going to do the DevOps mod for this which is basically Continuous Deployment(CD)
+I've done step 1 already from the beginning which was create a github repo for this project.
+I need to do step 2 which is to convert my S3, Route 53, and CloudFront resources to infrastructure-as-code (IaC).

@@ -6,8 +6,10 @@ function RelevantProjects(){
         "Designed an add candy form component for a business to add a unique candy to the market, using JavaScript & React for the functionallity, as well as Bootstrap for styling"
     ]
     const awsBullets = [
-    "Demonstrated my learning through The Cloud Resume Challenge."
-]
+        "Implimented my resume with HTML, CSS, and React which resulted in a close replication of my current resume.",
+        "Applied static website hosting with S3, resulting in a static website with my content.",
+        "Improved security by using CloudFront, Certificate Manager, and Route 53 to allow HTTPS to my website with a custom domain."
+    ]
     const carBullets = [
         "Developed a process for inventory management to handle manufacturers, vehicle models, & automobiles with proficiency in HTML, CSS, & JavaScript",
         "Applied a filtered search listing of car service records with React & JavaScript for functionallity, and HTML & CSS for the looks for easier sales team access to inventory records",
@@ -53,7 +55,7 @@ function RelevantProjects(){
             </div>
             <div>
                 <h6 className='name ps-5 pt-4'>
-                    The Cloud Resume Challenge | Full Stack Engineer |https://github.com/JoshLaoO/The-Cloud-Resume-Challenge-AWS | Docker, Python, PostgreSQL, JavaScript, React, AWS
+                    The Cloud Resume Challenge | Full Stack Engineer |https://github.com/JoshLaoO/The-Cloud-Resume-Challenge-AWS | Docker, JavaScript, React, AWS
                 </h6>
                 <p className="ps-5 caption">
                     An Applicaton made to show off my learning in AWS in the form of my resume.

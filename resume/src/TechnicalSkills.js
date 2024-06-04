@@ -71,6 +71,12 @@ function TechnicalSkills(){
                 )
             })}
             </div>
+            <div className="d-flex">
+                <div>
+                    <b>Cloud: </b>
+                </div>
+                <div className='ms-3'> AWS </div>
+            </div>
         </div>
     )
 }
