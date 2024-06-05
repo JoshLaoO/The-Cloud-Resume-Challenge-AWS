@@ -51,3 +51,5 @@ I've done step 1 already from the beginning which was create a github repo for t
 I need to do step 2 which is to convert my S3, Route 53, and CloudFront resources to infrastructure-as-code (IaC).
 
 Fixed up some variables and now I am ready to try again.
+
+9:13pm - This took longer than expected, and this is because I was using the wrong service!!! I now know to use CodePipeline to connect my github repo, run my production phases, and successfully impliment CI/CD into my resume.
